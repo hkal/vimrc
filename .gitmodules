@@ -16,3 +16,6 @@
 [submodule "vim/bundle/vim-tintin"]
 	path = vim/bundle/vim-tintin
 	url = https://github.com/LokiChaos/vim-tintin.git
+[submodule "vim/bundle/editorconfig-vim"]
+	path = vim/bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
