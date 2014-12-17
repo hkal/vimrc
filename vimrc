@@ -1,23 +1,11 @@
+" Housekeeping
 set encoding=utf-8
-
-" Follow the leaders!
 set nocompatible
 set t_Co=256
 
-" Line numbers
-set number
-set rnu
-
-" Search
-set hlsearch
-set ignorecase
-set smartcase
-
-" Status line goodness
-set laststatus=2
-
 filetype off
 
+" Load plugins via Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -39,6 +27,17 @@ call vundle#end()
 
 syntax on
 filetype plugin indent on
+
+" Line numbers
+set rnu
+
+" Search
+set hlsearch
+set ignorecase
+set smartcase
+
+" Status line goodness
+set laststatus=2
 
 " Look and feel
 colorscheme molokai
