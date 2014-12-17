@@ -1,21 +1,3 @@
-[submodule "vim/bundle/vim-pathogen"]
-	path = vim/bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
-[submodule "vim/bundle/nerdtree"]
-	path = vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-[submodule "vim/bundle/vim-rust"]
-	path = vim/bundle/vim-rust
-	url = https://github.com/wting/rust.vim.git
-[submodule "vim/bundle/syntastic"]
-	path = vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
-[submodule "vim/bundle/vim-gitgutter"]
-	path = vim/bundle/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter.git
-[submodule "vim/bundle/vim-tintin"]
-	path = vim/bundle/vim-tintin
-	url = https://github.com/LokiChaos/vim-tintin.git
-[submodule "vim/bundle/editorconfig-vim"]
-	path = vim/bundle/editorconfig-vim
-	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "vim/bundle/Vundle.vim"]
+	path = vim/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
