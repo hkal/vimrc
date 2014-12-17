@@ -1,7 +1,25 @@
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+" Follow the leaders!
+set nocompatible
 
-execute pathogen#infect()
 syntax on
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+
+" Git related
+Plugin 'airblade/vim-gitgutter'
+
+" Utilities
+Plugin 'scrooloose/nerdtree'
+Plugin 'bling/vim-airline'
+
+" Pretties
+Plugin 'jordwalke/flatlandia'
+
+call vundle#end()
 filetype plugin indent on
 
-:nmap \e :NERDTreeToggle<CR>
+:nmap <leader>nt :NERDTreeToggle<CR>
