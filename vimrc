@@ -18,6 +18,8 @@ Plugin 'tpope/vim-fugitive'
 " Utilities
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
+Plugin 'kien/ctrlp.vim'
+Plugin 'SirVer/ultisnips'
 
 " Pretties
 Plugin 'jordwalke/flatlandia'
@@ -25,8 +27,10 @@ Plugin 'tomasr/molokai'
 
 call vundle#end()
 
-syntax on
 filetype plugin indent on
+
+" Them highlights
+syntax on
 
 " Line numbers
 set rnu
@@ -43,6 +47,15 @@ set laststatus=2
 colorscheme molokai
 
 " Enable cool arrows
-let g:airline_powerline_fonts=1
+let g:airline_powerline_fonts=-1
 
+" UltiSnips config
+let g:UltiSnipsListSnippets='<c-k>i'
+let g:UltiSnipsJumpForwardTrigger='<c-k>j'
+let g:UltiSnipsJumpBackwardTrigger='<c-k>k'
+
+" Aliases
+let mapleader=','
 :nmap <leader>nt :NERDTreeToggle<CR>
+:nmap <leader>gs :Gstatus<CR>
+:nmap <leader>gb :Gblame<CR>
