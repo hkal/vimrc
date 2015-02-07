@@ -20,6 +20,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'SirVer/ultisnips'
+Plugin 'editorconfig/editorconfig-vim'
 
 " Pretties
 Plugin 'jordwalke/flatlandia'
