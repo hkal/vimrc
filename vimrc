@@ -21,6 +21,7 @@ Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'Yggdroot/indentLine'
 
 " Pretties
 Plugin 'jordwalke/flatlandia'
@@ -29,6 +30,9 @@ Plugin 'tomasr/molokai'
 call vundle#end()
 
 filetype plugin indent on
+
+" File specific formatting
+autocmd Filetype lua setlocal ts=4 sw=4 expandtab list
 
 " Them highlights
 syntax on
