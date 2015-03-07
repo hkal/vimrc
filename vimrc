@@ -22,6 +22,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'Yggdroot/indentLine'
+Plugin 'mileszs/ack.vim'
 
 " Pretties
 Plugin 'jordwalke/flatlandia'
