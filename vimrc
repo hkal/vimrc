@@ -33,6 +33,7 @@ filetype plugin indent on
 
 " File specific formatting
 autocmd Filetype lua setlocal ts=4 sw=4 expandtab list
+autocmd Filetype ruby setlocal ts=2 sw=2 expandtab list
 
 " Them highlights
 syntax on
