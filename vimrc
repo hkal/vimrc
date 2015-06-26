@@ -19,7 +19,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
-Plugin 'SirVer/ultisnips'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'mileszs/ack.vim'
@@ -56,11 +55,6 @@ colorscheme molokai
 
 " Enable cool arrows
 let g:airline_powerline_fonts=-1
-
-" UltiSnips config
-let g:UltiSnipsListSnippets='<c-k>i'
-let g:UltiSnipsJumpForwardTrigger='<c-k>j'
-let g:UltiSnipsJumpBackwardTrigger='<c-k>k'
 
 " Aliases
 let mapleader=','
